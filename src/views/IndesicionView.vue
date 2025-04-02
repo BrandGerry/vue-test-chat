@@ -10,8 +10,10 @@
 </template>
 
 <script setup lang="ts">
-import { useChat } from '@/components/useChat';
+// COMPONENTES
 import ChatMessages from '../chat/ChatMessages.vue';
 import MessageBox from '../chat/MessageBox.vue';
+// COMPOSABLE
+import { useChat } from '@/components/useChat';
 const { messages, onMessage } = useChat();
 </script>
